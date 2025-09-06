@@ -17,6 +17,11 @@ int main() {
             cout << "x1=" << x1 << endl;
             cout << "x2=" << x2;
         }
+         else if (d == 0)
+        {
+            x = -b / (2 * a);
+            cout << "یک ریشه حقیقی (دو ریشه برابر): " << x << endl;
+        }
     return 0;
 
 }
